@@ -4,6 +4,7 @@
  * 
  * int y[] = {2,6,7,9,10,11,4,3,7};
  */
+
 import java.util.Random;
 
 public class LargestEvenNumberFinder {
@@ -53,9 +54,14 @@ public class LargestEvenNumberFinder {
 	
 	public void printArrayContents() {
 		System.out.println("Printing array contents...");
-		System.out.print("[ ");
+		System.out.print("[");
 		for(int i = 0; i < numArray.length; i++) {
-			System.out.print(numArray[i] + " ");
+			if(i != numArray.length-1){
+				System.out.print(numArray[i] + ", ");
+			}
+			else {
+				System.out.print(numArray[i]);
+			}
 		}
 		System.out.println("]");
 		System.out.println();
