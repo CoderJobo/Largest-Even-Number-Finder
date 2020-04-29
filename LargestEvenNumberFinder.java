@@ -53,7 +53,7 @@ public class LargestEvenNumberFinder {
 	
 	public void printArrayContents() {
 		System.out.println("Printing array contents...");
-		System.out.print("[");
+		System.out.print("[ ");
 		for(int i = 0; i < numArray.length; i++) {
 			System.out.print(numArray[i] + " ");
 		}
