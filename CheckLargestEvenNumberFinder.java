@@ -25,7 +25,7 @@ public class CheckLargestEvenNumberFinder {
 		Scanner scanUserInput = new Scanner(System.in);
 		System.out.println("What size should the array be?");
 		int arraySize = scanUserInput.nextInt();
-		System.out.println("What is the largest possible number the array may contain?");
+		System.out.println("What is the maximum range of numbers the array may contain?");
 		int largestNum = scanUserInput.nextInt();
 		System.out.println();
 		LargestEvenNumberFinder finder2 = new LargestEvenNumberFinder(arraySize, largestNum); 
